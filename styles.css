@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #fff;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-container {
+    color: #fff;
+    background-color:grey;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-grid {
+    
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.point-container {
+    
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item {
+    border: 1px solid #fff;
+    background-color: #d6e9fe;
+    width: 900px;
+    height: 200px;
+    flex: 1;
+}
+
+.task-container {
+    flex: 2;
+}
+
+#my-todo{
+    cursor: pointer;
+    position: relative;
+    padding: 20px 8px 20px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+#my-todo li{
+    margin: 20px;
+}
+
+#my-todo li:nth-child(odd){
+    background: #f9f9f9;
+}
+
+#my-todo li:hover{
+    background: #ddd;
+}
+
+.lock {
+    float: right;
+}
+
+.char-grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.char-grid{
+    width: 900px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.char-grid-item{
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+}
